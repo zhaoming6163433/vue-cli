@@ -7,10 +7,10 @@
 ####
 
 ## 环境Build
-# npm run build dev  内网开发
-# npm run build beta 外网开发
-# npm run build testdev 外网测试
-# npm run build pro  生产
+npm run build dev  内网开发
+npm run build beta 外网开发
+npm run build testdev 外网测试
+npm run build pro  生产
 
 ## Build Setup
 
