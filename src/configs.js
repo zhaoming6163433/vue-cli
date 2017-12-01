@@ -12,7 +12,6 @@ const filename = '/o2omallwx';
 const accuracy = false;//是否开启精准定位 不开启定位失败就默认北京天安门
 
 let urlWebHttp;
-let assetsPublicPath = '';
 let plant = '';
 let get_signature = '';
 
@@ -39,12 +38,6 @@ switch (process.env.srconfig) {
 		urlWebHttp = 'http://devo2o.zhiscity.com';
 		get_signature = 'https://healthapi.zhiscity.com/wmp/rest/weixinShare/getBase4JsSdk/ff8080815cd3833d015cd38e0c010004?';
 		break;
-}
-//配置相对路径
-if(location.href.indexOf(filename)!=-1){
-	assetsPublicPath = '.';
-}else{
-	assetsPublicPath = '../..';
 }
 //判断平台
 if(navigator.userAgent.match(/MicroMessenger/igm)){

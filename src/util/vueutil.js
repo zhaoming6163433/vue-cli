@@ -41,15 +41,6 @@ export default{
 	//加载错误图片处理
 	Vue.prototype.loaderrimg = function(e){
 		var type = e.currentTarget.attributes.type&&e.currentTarget.attributes.type.value;
-		if(type == 'swipe'){
-			e.target.src = appConfigs.assetsPublicPath+'/static/img/defaultbanner.png';
-		}else if(type == 'noimg'){
-			e.target.src = appConfigs.assetsPublicPath+'/static/img/picturedefault.png';
-		}else if(type == 'ziziimg'){
-			e.target.src = appConfigs.assetsPublicPath+'/static/img/zizidefault.png';
-		}else {
-			e.target.src = appConfigs.assetsPublicPath+'/static/img/drugdefault.png';
-		}
 	};
 	//加载图片处理
 	Vue.prototype.loadimg = function(e){
