@@ -52,7 +52,6 @@ export default{
 	ak,
 	filename,
 	accuracy,
-	assetsPublicPath,
 	plant,
 	get_signature
 }
