@@ -1,0 +1,22 @@
+{
+    "scope": "/",
+    "name": "老版测试pwaname",
+    "short_name": "老版测试pwashortname",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "老版测试pwades",
+    "orientation": "portrait",
+    "theme_color": "#3f51b5",
+    "background_color": "#fff",
+    "icons": [{
+      "src": "img/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "img/msapplication-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+    ]
+}

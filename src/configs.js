@@ -8,7 +8,6 @@
 const toastime = 3000;
 const timeout = 10000;
 const ak = 'YEC9IHhGrw5361ioh6ugEsIqKIkPIwy7';
-const filename = '/o2omallwx';
 const accuracy = false;//是否开启精准定位 不开启定位失败就默认北京天安门
 
 let urlWebHttp;
@@ -50,7 +49,6 @@ export default{
 	toastime,
 	timeout,
 	ak,
-	filename,
 	accuracy,
 	plant,
 	get_signature

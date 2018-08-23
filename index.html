@@ -7,11 +7,20 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>hello</title>
+    <link rel="manifest" href="static/manifest.json">
     <link rel="stylesheet" href="static/css/swiper.min.css">
     <script src="static/js/screenscale.js" type="text/javascript" charset="utf-8"></script>
     <script src="static/js/dateformat.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
+    <!-- 注册service-worker.js -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('./service-worker.js');
+            });
+        }
+    </script>
     <div id="app"></div>
     <!-- built files will be auto injected -->
     <script src="static/js/hammer.min.js" type="text/javascript" charset="utf-8"></script>

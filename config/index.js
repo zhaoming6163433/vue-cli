@@ -4,8 +4,8 @@ var path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
-    index: path.resolve(__dirname, '../dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    index: path.resolve(__dirname, '../oldpwatest/index.html'),
+    assetsRoot: path.resolve(__dirname, '../oldpwatest'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',///自定义路径/
     productionSourceMap: false,//打印错误地址线上false
@@ -26,7 +26,7 @@ module.exports = {
     port: 9988,
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',//访问的路径 
+    assetsPublicPath: '/',//访问的路径
     proxyTable: {//反向代理
         /*'/api': {
             target: 'http://api.xxxxxxxx.com',

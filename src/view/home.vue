@@ -6,7 +6,7 @@
         <li v-for="item in infomation">{{item.label}}</li>
       </ul>
     </section>
-  </div> 
+  </div>
 </template>
 
 <script>
@@ -22,10 +22,10 @@ export default {
     }
   },
   components: {
-    
+
   },
   created(){
-    
+
   },
   methods : {
       async get_info(params){
@@ -37,7 +37,7 @@ export default {
       },
   },
   mounted(){
-      this.get_info()
+      //this.get_info()
   }
 }
 
