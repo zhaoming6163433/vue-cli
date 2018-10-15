@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>hello world!</h1>
+    <h1>hello world123!</h1>
     <section>
       <ul>
         <li v-for="item in infomation">hahaha999{{item.label}}</li>
