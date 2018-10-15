@@ -3,7 +3,7 @@
     <h1>hello world!</h1>
     <section>
       <ul>
-        <li v-for="item in infomation">{{item.label}}</li>
+        <li v-for="item in infomation">hahaha{{item.label}}</li>
       </ul>
     </section>
   </div>
